@@ -3,6 +3,18 @@
 [![Build Status](https://travis-ci.org/wollok/flotasDeRodados.svg?branch=master)](https://travis-ci.org/wollok/flotasDeRodados)
 
 
+## Cómo organizar el código
+
+Armar tres archivos Wollok
+- uno para la Trafic
+- uno para los otros rodados
+- uno para la dependencia
+
+Más un archivo de test. O sea, se entregan 4 archivos.
+
+
+## El enunciado 
+
 En este ejercicio vamos a construir un modelo que pueda servir para la administración de las flotas de rodados que utilizan las distintas dependencias de la Municipalidad de Coronel Vallejos. 
 
 De cada **rodado** nos van a interesar: _capacidad_ (o sea, cuántos pasajeros puede transportar), _velocidad máxima_, _color_ y _peso_.
@@ -75,4 +87,4 @@ En este ejercicio no damos ningún código inicial, les toca todo a ustedes. Van
 
 La mayor parte de los objetos que representan rodados van a ser instancias de alguna clase. No todos de la misma clase: las características de un Corsa son distintas que las de un Twid.
 
-La excepción es la Trafic: dado que hay una sola, **no es necesario** crear una clase `Trafic`, puede ser tranquilamente un objeto bien conocido.
+La excepción es la Trafic: dado que hay una sola, **no es necesario** crear una clase `Trafic`, puede ser tranquilamente un objeto autodefinido.
